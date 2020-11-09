@@ -1,0 +1,21 @@
+{
+    "type": "library",
+    "name": "mahmutbayri/websocket-delegator",
+    "description": "",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mahmut Bayri",
+            "email": "mahmutbayri@yahoo.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "MahmutBayri\\WebSocketDelegator\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.4",
+        "cboden/ratchet": "^0.4.3"
+    }
+}
